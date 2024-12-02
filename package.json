@@ -1,0 +1,23 @@
+{
+  "name": "selenium-testing",
+  "version": "1.0.0",
+  "description": "Selenium testing Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Laiba-Iqrar/Selenium-Automation-Testing.git"
+  },
+  "author": "Laiba Iqrar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Laiba-Iqrar/Selenium-Automation-Testing/issues"
+  },
+  "homepage": "https://github.com/Laiba-Iqrar/Selenium-Automation-Testing#readme",
+  "keywords": [],
+  "dependencies": {
+    "selenium-webdriver": "^4.27.0"
+  }
+}
