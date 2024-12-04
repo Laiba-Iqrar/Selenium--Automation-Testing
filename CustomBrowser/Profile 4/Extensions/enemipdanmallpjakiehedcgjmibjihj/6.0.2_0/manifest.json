@@ -1,0 +1,68 @@
+{
+   "applications": {
+      "gecko": {
+         "id": "jid1-Kt2kYYgi32zPuw@jetpack"
+      }
+   },
+   "author": "Samuel Jun",
+   "background": {
+      "scripts": [ "/background/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "/assets/images/tomato-icon-128.png",
+         "16": "/assets/images/tomato-icon-16.png",
+         "256": "/assets/images/tomato-icon-256.png",
+         "32": "/assets/images/tomato-icon-32.png",
+         "48": "/assets/images/tomato-icon-48.png",
+         "64": "/assets/images/tomato-icon-64.png"
+      },
+      "default_popup": "/panel/panel.html",
+      "default_title": "Tomato Clock"
+   },
+   "commands": {
+      "reset-timer": {
+         "description": "Reset the current timer.",
+         "suggested_key": {
+            "default": "Alt+Shift+4"
+         }
+      },
+      "start-long-break": {
+         "description": "Start a new long break.",
+         "suggested_key": {
+            "default": "Alt+Shift+3"
+         }
+      },
+      "start-short-break": {
+         "description": "Start a new short break.",
+         "suggested_key": {
+            "default": "Alt+Shift+2"
+         }
+      },
+      "start-tomato": {
+         "description": "Start a new tomato timer.",
+         "suggested_key": {
+            "default": "Alt+Shift+1"
+         }
+      }
+   },
+   "description": "A simple browser extension for managing your productivity.",
+   "icons": {
+      "128": "/assets/images/tomato-icon-128.png",
+      "16": "/assets/images/tomato-icon-16.png",
+      "256": "/assets/images/tomato-icon-256.png",
+      "32": "/assets/images/tomato-icon-32.png",
+      "48": "/assets/images/tomato-icon-48.png",
+      "64": "/assets/images/tomato-icon-64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgqoaXkw2K61e96RQxU5shRDcOp7GaWMWUy/SHqJreF37Z27hrsbClUbdwanD8eiw9kAClYu600s9sfunIE+mpBXxSHx7YPyggStPZf2C/7Xic7yR63GPmbXPFj20nQvkSkTCvRBpdI5cyBsk3oV4PSpoObi8/gJXUU+hfXDcrvlv1+JJ0atYRFbxQjMD7LTe7ChIxowni/9ugogZeBxf3Y8FUe093bJH4Xwtre7cec0EavL3kKbsZRXP4FkZyhvylK/w0/LjZeJ04/hUwfJdqAXUn0G1MDEpcseOtcqBTq1dtuBLKInG8HzcdufFZrN7LfSOyIuSuzdffqLiEcVq1QIDAQAB",
+   "manifest_version": 2,
+   "name": "Tomato Clock",
+   "options_ui": {
+      "browser_style": false,
+      "page": "/options/options.html"
+   },
+   "permissions": [ "notifications", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "6.0.2"
+}

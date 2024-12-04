@@ -1,0 +1,21 @@
+{
+  "name": "course2",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Laiba Iqrar",
+  "license": "MIT",
+  "description": "Selenium ",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Laiba-Iqrar/Selenium-Automation-Testing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Laiba-Iqrar/Selenium-Automation-Testing/issues"
+  },
+  "homepage": "https://github.com/Laiba-Iqrar/Selenium-Automation-Testing#readme"
+}
